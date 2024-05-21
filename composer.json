@@ -1,0 +1,22 @@
+{
+    "name": "mawena/apicru",
+    "description": "Un ensemble de méthode pour facilement mettre en place des api dans laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mawena\\Apicru\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mawena",
+            "email": "gamligocharles@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10.0"
+    },
+    "minimum-stability": "stable"
+}
